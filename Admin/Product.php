@@ -205,7 +205,7 @@ if(isset($_POST['btnsave'])){
 <h3 class="text-white">Product list</h3>
    
    <div align="right"><a href="#" class="btn btn-outline-light mb-2" data-bs-toggle="modal" data-bs-target="#userModal" id="addNewMember">Add new product</a></div>
-   <div class="modal fade " id="userModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+   <div class="modal fade " id="userModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true"  >
   <div class="modal-dialog ">
     <div class="modal-content">
       <div class="modal-header">
@@ -254,8 +254,8 @@ if(isset($_POST['btnsave'])){
 
 <div id="fileInfo"></div>
 
-
-<table class="table table-dark table-hover" >
+<div class="table-responsive">
+<table class="table table-dark table-hover text-nowrap" >
   <thead>
     <tr>
       <th scope="col">ID</th>
@@ -308,6 +308,7 @@ if(isset($_POST['btnsave'])){
   </tbody>
 </table>
 
+</div>
 <div class="modal fade" id="delModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">

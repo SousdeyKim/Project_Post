@@ -238,9 +238,8 @@ $(document).on('input', '#paid', function() {
 </div>
 
 <div class="row ">
-    <div class="col-6">
-        <div class="invoice-box">
-        <table cellpadding="0" cellspacing="0">
+    <div class="col-md-6 col-sm-12">
+        <table class=" table table-dark table-bordered" >
                 
                 <thead class="bg-white">
                     <tr>
@@ -253,25 +252,21 @@ $(document).on('input', '#paid', function() {
                 </thead>
                 <tbody id="itemlist"></tbody>
                 
-            </table>
+        </table>
            
-        </div>
     </div>
 
-    <div class="col-6">
-        <div class="invoice-box">
-            <table cellpadding="0" cellspacing="0" id="tblorder">
+    <div class="col-md-6">
+            <table class=" table table-dark table-bordered" id="tblorder">
                 <thead>
-                    <tr>
-                        <td colspan="5">
-                            <table>
-                                <tr>
-                                    <td class="text-white">
-                                        Wallmart, Inc.<br> 12345 Road<br> Toul Tompong, Phnom Penh
-                                    </td>
-                                    <td class="text-white">
-
-                                        Invoice #: <?php 
+                    <tr >
+                        <td >
+                            <p class="my-1">Wallmart, Inc.</p>
+                            <p class="my-1"> 12345 Road</p>
+                            <p class="my-1">Toul Tompong, Phnom Penh</p>
+                        </td>
+                        <td colspan="4" class="text-end align-top" >
+                                <p class="my-1">Invoice #: <?php 
                                         $sql = "SELECT * FROM `order` WHERE order_id = (SELECT MAX(order_id) FROM `order`);";
                                         $result = $conn->query($sql);
                                         if($result->num_rows>0){
@@ -281,21 +276,15 @@ $(document).on('input', '#paid', function() {
                                             echo $orderId;
                                             
                                         }
-                                        ?><br> Created: <?php 
+                                        ?></p>
+                                        <p class="my-1"> Created: <?php 
                                         echo date("Y-m-d");
                                         ?>
-                                        <!-- <br> <table>
-                                            <tr>
-                                                <td  class="text-white "style="position: relative; right:-80px" >Payment date:</td>
-                                                <td id="payment-date" class="text-white">Not Paid</td>
-                                            </tr>
-                                            </table> -->
-                                        
-                                
-                                    </td>
-                                </tr>
-                            </table>
+                                       
+                                </p>
+
                         </td>
+                   
                     </tr>
                 </thead>
                 <tbody class="bg-white">
@@ -336,7 +325,6 @@ $(document).on('input', '#paid', function() {
                     </tr>
                 </tbody>
             </table>
-        </div>
     </div>
 
 </div>
