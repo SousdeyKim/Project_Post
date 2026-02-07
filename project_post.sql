@@ -3,7 +3,8 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost:3306
--- Generation Time: Feb 04, 2025 at 12:06 PM
+
+-- Generation Time: Feb 07, 2026 at 07:57 AM
 -- Server version: 5.7.24
 -- PHP Version: 8.3.1
 
@@ -38,7 +39,12 @@ CREATE TABLE `categories` (
 --
 
 INSERT INTO `categories` (`catid`, `cat_title`, `picture`) VALUES
+<<<<<<< HEAD
 (1, 'Drink', 'Drink.png');
+=======
+(1, 'Drink', 'Drink.png'),
+(2, 'vegetable', '718-90x90.jpg');
+>>>>>>> 220be37 (Add README)
 
 -- --------------------------------------------------------
 
@@ -203,7 +209,11 @@ ALTER TABLE `seller`
 -- AUTO_INCREMENT for table `categories`
 --
 ALTER TABLE `categories`
+<<<<<<< HEAD
   MODIFY `catid` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+=======
+  MODIFY `catid` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+>>>>>>> 220be37 (Add README)
 
 --
 -- AUTO_INCREMENT for table `invoice`

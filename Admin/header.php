@@ -21,7 +21,7 @@ session_start();
 <nav class="navbar navbar-expand-sm bg-dark navbar-dark w-auto">
   <div class="container-fluid">
     <a class="navbar-brand" href="#">
-      <img src="images/companyLogo.png" alt="Avatar Logo" style="width:40px;" class="rounded-pill"> 
+      <img src="/Project_Post/Admin/images/companyLogo.png" alt="Avatar Logo" style="width:40px;" class="rounded-pill"> 
     </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
       <span class="navbar-toggler-icon"></span>
@@ -29,23 +29,23 @@ session_start();
     <div class="collapse navbar-collapse" id="collapsibleNavbar">
       <ul class="navbar-nav me-auto">
         <li class="nav-item">
-          <a class="nav-link" href="index.php">Home</a>
+          <a class="nav-link" href="/Project_Post/index.php">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="Categories.php">Categories</a>
+          <a class="nav-link" href="/Project_Post/Admin/Categories.php">Categories</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="Product.php">Product</a>
+          <a class="nav-link" href="/Project_Post/Admin/Product.php">Product</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="Sale.php">Sale</a>
+          <a class="nav-link" href="/Project_Post/Admin/Sale.php">Sale</a>
         </li>  
         <li class="nav-item">
-          <a class="nav-link" href="performance.php">Performance</a>
+          <a class="nav-link" href="/Project_Post/Admin/performance.php">Performance</a>
         </li> 
       </ul>
       <a class="navbar-brand me-2" href="#"  data-bs-toggle="modal" data-bs-target="#signOutModal" id="singOut">
-        <img src="images/istockphoto-1495088043-612x612.jpg" alt="Avatar Logo" style="width:40px;" class="rounded-pill"> 
+        <img src="/Project_Post/Admin/images/istockphoto-1495088043-612x612.jpg" alt="Avatar Logo" style="width:40px;" class="rounded-pill"> 
       </a>
     </div>
   </div>
@@ -57,12 +57,12 @@ session_start();
       <div class="modal-header">
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
-      <div class="modal-body">
+      <!-- <div class="modal-body">
         <button   ></button>  
       </div>
       <div class="modal-body">
         <button  ></button>  
-      </div>
+      </div> -->
       
       <div class="modal-footer d-flex justify-content-center" style="text-align: center;" >
         <a align="center" href="../signOut.php" class="text-danger">Sign Out</a>
