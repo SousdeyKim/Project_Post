@@ -80,6 +80,7 @@ If you’re using XAMPP default settings, it should be:
 $conn = new mysqli('localhost', 'root', '', 'project_post');
 ```
 4. Start the server
+
 Option A — Using XAMPP
 
 Start Apache and MySQL from the XAMPP Control Panel.
