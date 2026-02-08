@@ -22,6 +22,28 @@ A PHP-based web application developed as a school project to demonstrate user au
 
 ✔ SQL file to generate required database (project_post.sql)
 
+🗂 Project Structure
+
+Admin/
+
+Users/
+
+Connection.php
+
+index.php
+
+logIn.php
+
+register.php
+
+session_management.php
+
+signOut.php
+
+project_post.sql
+
+style.css
+
 🚀 Setup Guide (Run Locally)
 
 1. Clone the repository
@@ -29,7 +51,7 @@ A PHP-based web application developed as a school project to demonstrate user au
    git clone https://github.com/SousdeyKim/Project_Post.git
 
    cd Project_Post
-
+   
 2. Create the database
 
 Open phpMyAdmin by visiting:
@@ -46,12 +68,15 @@ Import the SQL file project_post.sql using the Import tab — this will create y
 
 Open Connection.php and set your database credentials:
 
+```php
+
 <?php
 $conn = new mysqli('localhost', 'root', 'root', 'project_post');
 
 If you’re using XAMPP default settings, it should be:
 
 $conn = new mysqli('localhost', 'root', '', 'project_post');
+```
 4. Start the server
 Option A — Using XAMPP
 
