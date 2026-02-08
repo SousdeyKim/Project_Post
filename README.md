@@ -1,7 +1,7 @@
 Project_Post
 
-A simple PHP web application demonstrating user authentication and CRUD (Create, Read, Update, Delete) operations with MySQL.
-This project was built as a learning exercise from an online tutorial.
+A PHP-based web application developed as a school project to demonstrate user authentication and CRUD (Create, Read, Update, Delete) operations using MySQL, focusing on core backend concepts and database interaction.
+
 ![Product-page](./Admin/images/Product.png)
 
 📌 Features
