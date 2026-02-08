@@ -22,28 +22,6 @@ A PHP-based web application developed as a school project to demonstrate user au
 
 ✔ SQL file to generate required database (project_post.sql)
 
-🗂 Project Structure
-
-Admin/
-
-Users/
-
-Connection.php
-
-index.php
-
-logIn.php
-
-register.php
-
-session_management.php
-
-signOut.php
-
-project_post.sql
-
-style.css
-
 🚀 Setup Guide (Run Locally)
 
 1. Clone the repository
@@ -51,7 +29,7 @@ style.css
    git clone https://github.com/SousdeyKim/Project_Post.git
 
    cd Project_Post
-   
+
 2. Create the database
 
 Open phpMyAdmin by visiting:
