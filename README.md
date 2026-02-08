@@ -7,30 +7,51 @@ A PHP-based web application developed as a school project to demonstrate user au
 📌 Features
 
 ✔ User Registration (register.php)
+
 ✔ User Login (logIn.php)
+
 ✔ Session Management to keep users logged in (session_management.php)
+
 ✔ Logout (signOut.php)
+
 ✔ CRUD operations with data stored in the database (users can be created, viewed, updated, deleted)
+
 ✔ MySQL database connection (Connection.php)
+
 ✔ Basic styling with CSS (style.css)
+
 ✔ SQL file to generate required database (project_post.sql)
 
 🗂 Project Structure
+
 Admin/
+
 Users/
+
 Connection.php
+
 index.php
+
 logIn.php
+
 register.php
+
 session_management.php
+
 signOut.php
+
 project_post.sql
+
 style.css
+
 🚀 Setup Guide (Run Locally)
 
 1. Clone the repository
+
    git clone https://github.com/SousdeyKim/Project_Post.git
+
    cd Project_Post
+   
 2. Create the database
 
 Open phpMyAdmin by visiting:
