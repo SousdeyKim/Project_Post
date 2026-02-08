@@ -72,9 +72,10 @@ Open Connection.php and set your database credentials:
 
 <?php
 $conn = new mysqli('localhost', 'root', 'root', 'project_post');
+```
 
 If you’re using XAMPP default settings, it should be:
-```
+
 ```php
 $conn = new mysqli('localhost', 'root', '', 'project_post');
 ```
